@@ -52,26 +52,38 @@ Working with Cypress Framework
 *******************************************************************************
 Node installation and setup
 For running this automation suite you will need to have node install in your computer, if you don’t have installed, please go through the below link:
+
 https://nodejs.org/en/download
+
 For Windows environment remember to validate the NODE_HOME path in System Environment Variables, should be look like below:
 NODE_HOME with value: C:\Program Files\nodejs
+
 This can be validate on CMD with command: node -v (this will response back the versión of node we are currently using) 
+
 ******************************************************************************
 IDE – Visual Studio Code (IDE suggested to manipulate the code)
 https://code.visualstudio.com/
+
 ******************************************************************************
 Open VSC (Visual Studio Code) and open package.json
 Open a new terminal and run the command: npm install
 This will download all the dependencies that we need for run correctly Cypress
 ******************************************************************************
 Running Cypress for the first time
+
 On terminal on your root directory run: npx cypress run --spec cypress/integration/E2E/*.js
 This will be run the test cases available under the directory E2E
+
 If you want to run with the cypress explorer console:
-On terminal on your root directory run (Note:the path will have variation on the first section, will be the name of your folder): C:\Interview\qa-automation-coding-challenge\node_modules\.bin\cypress open
+On terminal on your root directory run (Note:the path will have variation on the first section, will be the name of your folder): 
+C:\Interview\qa-automation-coding-challenge\node_modules\.bin\cypress open
+
 Select E2E Testing
+
 Click on the browser you desire to test and then click “Start E2E Testing (Name of the Broswer)”
+
 Click on “HomePageValidation.js”
+
 This will run and execute the js file
 
 ******************************************************************************
