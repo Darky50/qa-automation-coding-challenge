@@ -1,0 +1,8 @@
+{
+  "name_of_repo": "Get Github Repos",
+  "github_user_label": "Github Username",
+  "button_label_go": "Go",
+  "label_no_repos": "No repos",
+  "user_entered": "John",
+  "repos_founds": "Found 30 Repos"
+}
